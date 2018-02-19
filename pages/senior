@@ -11,7 +11,7 @@
             <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
         <![endif]-->
         <!--[if gt IE 8]><!-->
-            <link rel="stylesheet" href="css/layouts/side-menu.css">
+            <link rel="stylesheet" href="../css/layouts/side-menu.css">
         <!--<![endif]-->
 </head>
 
@@ -28,14 +28,14 @@
             <a class="pure-menu-heading" href="#">Welcome</a>
 
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
-                <li class="pure-menu-item"><a href="pages/about" class="pure-menu-link">About Me</a></li>
-                <li class="pure-menu-item"><a href="pages/experience" class="pure-menu-link">Experience</a></li>
-                <li class="pure-menu-item"><a href="pages/resume" class="pure-menu-link">Résumé</a></li>
-                <li class="pure-menu-item"><a href="pages/projects" class="pure-menu-link">Projects</a></li>
-                <li class="pure-menu-item"><a href="pages/senior" class="pure-menu-link">Senior Design</a></li>
-                <li class="pure-menu-item"><a href="pages/reflections" class="pure-menu-link">Reflections</a></li>
-                <li class="pure-menu-item"><a href="pages/contact" class="pure-menu-link">Contact</a></li>
+                <li class="pure-menu-item"><a href="../" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="../pages/about" class="pure-menu-link">About Me</a></li>
+                <li class="pure-menu-item"><a href="../pages/experience" class="pure-menu-link">Experience</a></li>
+                <li class="pure-menu-item"><a href="../pages/resume" class="pure-menu-link">Résumé</a></li>
+                <li class="pure-menu-item"><a href="../pages/projects" class="pure-menu-link">Projects</a></li>
+                <li class="pure-menu-item"><a href="../pages/senior" class="pure-menu-link">Senior Design</a></li>
+                <li class="pure-menu-item"><a href="../pages/reflections" class="pure-menu-link">Reflections</a></li>
+                <li class="pure-menu-item"><a href="../pages/contact" class="pure-menu-link">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -47,9 +47,9 @@
         </div>
 
         <div class="content">
-            <h2 class="content-subhead">Welcome</h2>
+            <h2 class="content-subhead">Senior Design</h2>
             <p>
-                I will eventually expand on this and add some kind of basic overview
+                I will go over my Senior Design project, "LiveSpot", and my involvement in it.
             </p>
         </div>
     </div>
