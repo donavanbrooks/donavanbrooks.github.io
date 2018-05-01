@@ -5,55 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal Website of Donavan Brooks.">
     <title>Donavan Brooks</title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-
-        <!--[if lte IE 8]>
-            <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
-        <![endif]-->
-        <!--[if gt IE 8]><!-->
-            <link rel="stylesheet" href="../css/layouts/side-menu.css">
-        <!--<![endif]-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/layouts/menu.css">
+    <script src="js/ui.js"></script>
 </head>
 
 <body>
-<div id="layout">
-    <!-- Menu toggle -->
-    <a href="#menu" id="menuLink" class="menu-link">
-        <!-- Hamburger icon -->
-        <span></span>
-    </a>
+  <nav class="navbar navbar-inverse navbar-global navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Donavan Brooks Portfolio</a>
+      </div>
+    </div>
+  </nav>
 
-    <div id="menu">
-        <div class="pure-menu">
-            <a class="pure-menu-heading" href="#">Welcome</a>
-
-            <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="../" class="pure-menu-link">Home</a></li>
-                <li class="pure-menu-item"><a href="../pages/about.html" class="pure-menu-link">About Me</a></li>
-                <li class="pure-menu-item"><a href="../pages/experience.html" class="pure-menu-link">Experience</a></li>
-                <li class="pure-menu-item"><a href="../pages/resume.html" class="pure-menu-link">Résumé</a></li>
-                <li class="pure-menu-item"><a href="../pages/projects.html" class="pure-menu-link">Projects</a></li>
-                <li class="pure-menu-item"><a href="../pages/senior.html" class="pure-menu-link">Senior Design</a></li>
-                <li class="pure-menu-item"><a href="../pages/reflections.html" class="pure-menu-link">Reflections</a></li>
-                <li class="pure-menu-item"><a href="../pages/contact.html" class="pure-menu-link">Contact</a></li>
+  <nav class="navbar-primary">
+    <ul class="navbar-primary-menu">
+        <li><a href="../pages/about.html"></span><span class="nav-label">About Me</span></a></li>
+        <li><a href="../pages/experience.html"></span><span class="nav-label">Experience</span></a></li>
+        <li><a href="../pages/resume.html"></span><span class="nav-label">Résumé</span></a></li>
+        <li><a href="../pages/projects.html" ></span><span class="nav-label">Projects</span></a></li>
+        <li><a href="../pages/senior.html"></span><span class="nav-label">Senior Design</span></a></li>
+        <li class='dropdown'>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reflections<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="../files/Ethics_Reflection.pdf" target="_blank">Ethical Reflection</a></li>
+              <li><a href="../files/GenEd_Reflection.pdf" target="_blank">General Education Reflection</a></li>
+              <li><a href="../files/Cumulative_Reflection.pdf" target="_blank">Cumulative Reflection</a></li>
             </ul>
-        </div>
-    </div>
+        <li><a href="../pages/contact.html"></span><span class="nav-label">Contact</span></a></li>
+      </li>
+    </ul>
+  </nav>
 
-    <div id="main">
-        <div class="header">
-            <h1>Donavan Brooks</h1>
-            <h2>Senior at Iowa State University Majoring in Software Engineering</h2>
-        </div>
-
-        <div class="content">
-            <h2 class="content-subhead">Résumé</h2>
-            <p>
-                Placeholder for résumé page, It will include a blownup image of my resume and a link for download
-            </p>
-        </div>
-    </div>
-</div>
+    <div class="main-content">
+      <br>
+        <h1 class="content-subhead">Résumé</h1>
+        <br>
+          <iframe src="../files/Updated Resume.pdf" style="height:700px;width:800px;display:block;margin:auto" >
+            <p>Your browser does not support iframes.</p>
+          </iframe>
+          <br>
+          <div style="background-color: rgb(255,255,255);padding: 1.0em; margin: auto;width: 80.0em;margin: 1.0em 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <h2 class="content-subhead">Career Objectives</h2>
+              <span class="tab">
+              After graduating I will be moving to Minneapolis and working as an Entry-Level Software Engineer at C.H Robinson.
+              C.H Robinson is a third-party logistics company whose platform Navisphere is a single pane of glass for moving freight.
+              It handles everything from tracking global shipments, data analytics and connection with customers.
+              It is platform used by large organizations, such as Amazon and Walmart, to mom and pops with a single truck.
+        	    I plan on working there for a couple years while I develop my own music platform and further develop my senior design project.
+              I eventually want to take a different position and move to New York, working while trying to get my own startup off the ground.
+            </span>
+          </div>
+            <br>
+          <div style="background-color: rgb(255,255,255);padding: 1.0em; margin: auto;width: 80.0em;margin: 1.0em 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <h2 class="content-subhead">Awards/Activities</h2>
+              <span class="tab">
+                <ul style="list-style-type:circle">
+                  <li>Participated in 4 Hack ISUs</li>
+                  <li>Recepient of Rockwell Colins Innovation Award: Spring 2016</li>
+                  <li>Recipient of Ross White Engineering Scholarship</li>
+                  <li>College of Engineering Dean's List: Fall 2014, Spring 2015, Spring 2016, Fall 2016 and Spring 2017</li>
+                </ul>
+            </span>
+          </div>
+    </div>`
 
 
 <script src="js/ui.js"></script>
